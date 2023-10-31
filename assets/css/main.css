@@ -790,19 +790,37 @@ section {
   }
 }
 
+@media (max-width: 767px) {
+  .form-container {
+    background-image: url('../img/form_page_sm.jpg');
+    background-position:  center center;
+  }
+  .inner-blur-container {
+    background-image: url('../img/form_page_blur_sm.jpg');
+    background-position:  center center;
+  }
+}
+@media (min-width: 768px) {
+  .form-container {
+    background-image: url('../img/form_page.jpg');
+    background-position:  center center;
+  }
+  .inner-blur-container {
+    background-image: url('../img/form_page_blur.jpg');
+    background-position:  center center;
+  }
+}
 
 
 .form-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../img/form_page.jpg');
   background-size: cover;
   height: 100vh;
   padding: 60px;
 }
 .inner-blur-container {
-  background-image: url('../img/form_page_blur.jpg');
   background-size: cover;
   height: 80vh;
   width: 100%;
