@@ -19,6 +19,8 @@
 
 .lux {
     margin-bottom: 4px;
+    height: 120vh;
+    background-size: cover;
 }
 .arrow-down {
     font-size: 50px;

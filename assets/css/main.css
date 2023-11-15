@@ -91,7 +91,18 @@ h6 {
   transition-duration: 0.2s;
   color: #ffffff;
 }
-
+.main-logo {
+  background-color: #ffffff90;
+  padding: 8px;
+  border-radius: 50%;
+  transition-duration: 0.5s;
+}
+.main-logo:hover {
+  background-color: #ffffff40;
+  padding: 8px;
+  border-radius: 50%;
+  transition-duration: 0.5s;
+}
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
