@@ -1,5 +1,8 @@
 
-/* Fonts */
+/* Fonts 
+font-family: Open Sans,Arial,sans-serif;
+font-family: 'Prata',Georgia,"Times New Roman",serif;
+*/
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Amatic SC", sans-serif;
@@ -417,16 +420,13 @@ section {
 # About Section
 --------------------------------------------------------------*/
 .about-pg-container {
-  background-color: #eeeef5;
+  background-color: #b3806980;
 
 }
 .about-text-container {
   padding: 30px;
 }
 
-.tick-icon {
-  font-size: 22px;
-}
 .about-para{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
@@ -434,18 +434,32 @@ section {
 }
 
 .about-us-join-button{
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
   color: #000000;
   border: 1px solid #000000;
   background-color: transparent;
   
 }
 .about-us-join-button:hover{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
   color: #ffffff;
   background-color: var(--color-primary);
   border: 1px solid var(--color-primary);
   
 }
+.inta-btn-icon {
+  margin-left: 10px;
+  width: 24px;
+}
+
 
 @media (max-width: 767px) {
   .small-about-text {
@@ -522,6 +536,13 @@ section {
 .why-us-para {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
+  color: #ffffff;
+  
+}
+
+.point-icon  {
+  font-size: 6px;
+  margin-right: 10px;
 }
 
 /*--------------------------------------------------------------
